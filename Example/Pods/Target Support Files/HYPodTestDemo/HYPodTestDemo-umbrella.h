@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RadarMapView.h"
 
 FOUNDATION_EXPORT double HYPodTestDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char HYPodTestDemoVersionString[];
