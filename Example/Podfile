@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HYPodTestDemo_Example' do
+  pod 'HYPodTestDemo', :path => '../'
+
+  target 'HYPodTestDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
