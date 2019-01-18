@@ -11,14 +11,20 @@
 		2C2210EA9B4E30EF111522D5B4A32F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		30BF97A3586574189664110E6A23408B /* Pods-HYPodTestDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE88EB21E1769CE7BD1ACFE481B8775 /* Pods-HYPodTestDemo_Example-dummy.m */; };
 		3861C4F3EEC8D5D7751F3C5C9E33B914 /* Pods-HYPodTestDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABB8350873EC27EB608EBA9E7100847 /* Pods-HYPodTestDemo_Tests-dummy.m */; };
+		445D0DCB21F233C70001C46C /* RadarMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D0DC721F233C70001C46C /* RadarMapView.h */; };
+		445D0DCC21F233C70001C46C /* RadarMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D0DC721F233C70001C46C /* RadarMapView.h */; };
+		445D0DCD21F233C70001C46C /* RadarMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D0DC721F233C70001C46C /* RadarMapView.h */; };
+		445D0DD121F233C70001C46C /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D0DC921F233C70001C46C /* RadarMapView.m */; };
+		445D0DD221F233C70001C46C /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D0DC921F233C70001C46C /* RadarMapView.m */; };
+		445D0DD321F233C70001C46C /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D0DC921F233C70001C46C /* RadarMapView.m */; };
+		445D0DD421F233C70001C46C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D0DCA21F233C70001C46C /* ReplaceMe.m */; };
+		445D0DD521F233C70001C46C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D0DCA21F233C70001C46C /* ReplaceMe.m */; };
+		445D0DD621F233C70001C46C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D0DCA21F233C70001C46C /* ReplaceMe.m */; };
 		4CC9DE8645FF4B161C1D85B2BF5E576E /* Pods-HYPodTestDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B69768F04339E0A5FF2E1A86ED7DC45F /* Pods-HYPodTestDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53D3CFDD98523D2CE43974C35FD4DE33 /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A908EA208DAB5C73870BB6B7E74769 /* RadarMapView.m */; };
 		A3061476575F82C4278A393CD784A372 /* HYPodTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F3CF42AC1AEDA5457A9F7DBD4ABA6 /* HYPodTestDemo-dummy.m */; };
 		A484A9AEB01C3A27603282BBF35989F6 /* HYPodTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B65DF662A25D80451D1E469CD5BA2B19 /* HYPodTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7B12100B4326C6656369A3B93F67FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D740EBC1A5739C6C1B6D72A0E04D01C1 /* RadarMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F140167E374EAB7F01988F54DA0B16 /* RadarMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB84D50950B5FA027B9AB3F3F9498298 /* Pods-HYPodTestDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F9850932F59409C843A23E57512FB4 /* Pods-HYPodTestDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F83427DD8B97773C0E1392E380D3391F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB2DFF14B4506BF891821F2EF7441A6 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,21 +52,22 @@
 		3BE88EB21E1769CE7BD1ACFE481B8775 /* Pods-HYPodTestDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYPodTestDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		3D29AB4C6EC3E4B8A89FCFE1C4B794BC /* HYPodTestDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYPodTestDemo.xcconfig; sourceTree = "<group>"; };
 		43E25174E8B014CB9473325AB9A56EF1 /* Pods-HYPodTestDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPodTestDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		459F41012B981C1E70F4795D668D82DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		445D0DC721F233C70001C46C /* RadarMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarMapView.h; sourceTree = "<group>"; };
+		445D0DC921F233C70001C46C /* RadarMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarMapView.m; sourceTree = "<group>"; };
+		445D0DCA21F233C70001C46C /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		459F41012B981C1E70F4795D668D82DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D686690A0E321B3C953929112AB0452 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DF448A6D67A078FC0120F18CD3CFEAF /* Pods_HYPodTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYPodTestDemo_Tests.framework; path = "Pods-HYPodTestDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF448A6D67A078FC0120F18CD3CFEAF /* Pods_HYPodTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYPodTestDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EF877F232ABD416E8188D182A7B338 /* Pods-HYPodTestDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPodTestDemo_Tests-resources.sh"; sourceTree = "<group>"; };
 		5ABA99DE9DCCB248F48168AC199E2718 /* Pods-HYPodTestDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYPodTestDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6BB2DFF14B4506BF891821F2EF7441A6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HYPodTestDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		6CCBF307AE23A1D165A2B1EF65960D80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		84A908EA208DAB5C73870BB6B7E74769 /* RadarMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RadarMapView.m; path = HYPodTestDemo/Classes/RadarMapView.m; sourceTree = "<group>"; };
+		6CCBF307AE23A1D165A2B1EF65960D80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8BDDBF96D09E5CE34FA4148A07152D09 /* HYPodTestDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPodTestDemo-prefix.pch"; sourceTree = "<group>"; };
 		9251BE0E8DB6139242371DB6B93A3354 /* Pods-HYPodTestDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPodTestDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		997AFD3AC42D888C7BBFA947518586E8 /* Pods-HYPodTestDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPodTestDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9ABB8350873EC27EB608EBA9E7100847 /* Pods-HYPodTestDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYPodTestDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		9E6C332CA23FA287E8E3D3B619868B8D /* Pods-HYPodTestDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPodTestDemo_Example-resources.sh"; sourceTree = "<group>"; };
-		A6AB5459D90C7DF8F245A1522C6A24C1 /* Pods_HYPodTestDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYPodTestDemo_Example.framework; path = "Pods-HYPodTestDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AB5459D90C7DF8F245A1522C6A24C1 /* Pods_HYPodTestDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYPodTestDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA79E12C45CF9363EFCDE915E4228472 /* Pods-HYPodTestDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYPodTestDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		ACC2D42C9449E12BB5A7867926C1DE91 /* Pods-HYPodTestDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYPodTestDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B65DF662A25D80451D1E469CD5BA2B19 /* HYPodTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPodTestDemo-umbrella.h"; sourceTree = "<group>"; };
@@ -68,13 +75,12 @@
 		BB291D3186094B51BFFA33A241CF2E19 /* Pods-HYPodTestDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPodTestDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB7461050764EC5FB56403EFBFDD9634 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD76E314A006CBEF7926EC309CF6ACC3 /* Pods-HYPodTestDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYPodTestDemo_Example.modulemap"; sourceTree = "<group>"; };
-		C7CC9EDE4AC064177CD44E656909AD97 /* HYPodTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYPodTestDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7CC9EDE4AC064177CD44E656909AD97 /* HYPodTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HYPodTestDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7F9850932F59409C843A23E57512FB4 /* Pods-HYPodTestDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYPodTestDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		D1FAF40B9FFFADFAC02DDBB6FA37F9C4 /* Pods-HYPodTestDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPodTestDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D224F1D9F90F36447FD1E1F626DE6B86 /* HYPodTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYPodTestDemo.modulemap; sourceTree = "<group>"; };
-		D2B773E0F7127BB3220254700DF0366C /* HYPodTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYPodTestDemo.framework; path = HYPodTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B773E0F7127BB3220254700DF0366C /* HYPodTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYPodTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E4F140167E374EAB7F01988F54DA0B16 /* RadarMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarMapView.h; path = HYPodTestDemo/Classes/RadarMapView.h; sourceTree = "<group>"; };
 		E5C7C687FCA172A77775BAC13DAAA708 /* Pods-HYPodTestDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPodTestDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +120,17 @@
 				4DF448A6D67A078FC0120F18CD3CFEAF /* Pods_HYPodTestDemo_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		445D0DC621F233C70001C46C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				445D0DC721F233C70001C46C /* RadarMapView.h */,
+				445D0DC921F233C70001C46C /* RadarMapView.m */,
+				445D0DCA21F233C70001C46C /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = HYPodTestDemo/Classes;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -223,9 +240,7 @@
 		DED467ADDD92AF57CBB08F3207ABF8FA /* HYPodTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E4F140167E374EAB7F01988F54DA0B16 /* RadarMapView.h */,
-				84A908EA208DAB5C73870BB6B7E74769 /* RadarMapView.m */,
-				6BB2DFF14B4506BF891821F2EF7441A6 /* ReplaceMe.m */,
+				445D0DC621F233C70001C46C /* Classes */,
 				D633AD4D26EDF5DB3D55E2543CFAA60D /* Pod */,
 				BCDEEA5CC2EC9D4E2939FF09FFD0D661 /* Support Files */,
 			);
@@ -241,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A484A9AEB01C3A27603282BBF35989F6 /* HYPodTestDemo-umbrella.h in Headers */,
-				D740EBC1A5739C6C1B6D72A0E04D01C1 /* RadarMapView.h in Headers */,
+				445D0DCB21F233C70001C46C /* RadarMapView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB84D50950B5FA027B9AB3F3F9498298 /* Pods-HYPodTestDemo_Example-umbrella.h in Headers */,
+				445D0DCC21F233C70001C46C /* RadarMapView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC9DE8645FF4B161C1D85B2BF5E576E /* Pods-HYPodTestDemo_Tests-umbrella.h in Headers */,
+				445D0DCD21F233C70001C46C /* RadarMapView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445D0DD321F233C70001C46C /* RadarMapView.m in Sources */,
+				445D0DD621F233C70001C46C /* ReplaceMe.m in Sources */,
 				3861C4F3EEC8D5D7751F3C5C9E33B914 /* Pods-HYPodTestDemo_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,9 +404,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445D0DD121F233C70001C46C /* RadarMapView.m in Sources */,
+				445D0DD421F233C70001C46C /* ReplaceMe.m in Sources */,
 				A3061476575F82C4278A393CD784A372 /* HYPodTestDemo-dummy.m in Sources */,
-				53D3CFDD98523D2CE43974C35FD4DE33 /* RadarMapView.m in Sources */,
-				F83427DD8B97773C0E1392E380D3391F /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +414,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445D0DD221F233C70001C46C /* RadarMapView.m in Sources */,
+				445D0DD521F233C70001C46C /* ReplaceMe.m in Sources */,
 				30BF97A3586574189664110E6A23408B /* Pods-HYPodTestDemo_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,8 +559,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
